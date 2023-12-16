@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+  <head>
+    <title>Hungarian_ChildSpeechSynthesis</title>
+      <article>
+        <header>
+		
+		
+		<p align="left"><img width="25%" src="Img/bme.jpg" /></p>
+		
+		
+  
+<p><br> 
+</br></p>
+	
+	<h1>Multi-Speaker Child Speech Synthesis in Low-Resource Hungarian Language</h1>
+        </header>
+      </article>
+	  <p>  </p>
+	  
+	  <p><b>Authors:</b> <a>Shaimaa Alwaisi</a>, <a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi</a>, Géza Németh</p>
+	  <p> 
+	  </p>  
+<p> 
+</p>
+
+<!-- <h4>Datasets</h4>
+<li><a href="http://en.arabicspeechcorpus.com/" target="_blank">Arabic Speech Corpus</a></li>
+<li>1813 .wav files, .lab files, and .TextGrid files</li> -->
+
+
+<!-- <br />  -->
+
+
+
+<p align="left"><img width="25%" src="Img/Child_speechSynthesis.jpg" /></p>
+
+
+
+<hr>
+
+<!-- 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 -->
+
+<!-- Female to Male -->
+<!-- p229_vc_p232 -->
+
+<!-- <h1 style="text-align:center;color:blue"; style="font-family:verdana;">1) Male Speaker </h1> -->
+
+<h2>Hungarian_ChildSpeechSynthesis</h2>
+<h3>Boy Speaker: </h3>
+
+<tr><td colspan="2"><span><b>Text:</b> "TULIPÁNOK GYOMLÁLÁSÁVAL TÖLTÖTTE EL AZ IDŐT."</span></td></tr>
+<br />
+<br />
+
+
+<div>	
+	
+      </table>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Ground_truth</th>
+	    <th>Proposed system</th>
+		<th>BigVGAN</th>
+		
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="Ground truth/Hungarian/boy/BF009L05_22resam1chboy.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="AutoVocoder/Hungarian/Boy/BF009L05_22resam1chboy_syn.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="ParallelWavGan/Boy/013boyPwavGan.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	   
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+	  
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text:</b> "THESE CIRCUITS ARE CLOSED AND THE LIGHT BULB SHOULD BE LIGHTING UP BUT FOR SOME REASON IT'S NOT <BREATH>
+"</span></td></tr>
+<br />
+<br />
+
+<div>
+	  
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Ground_truth</th>
+	    <th>Proposed system</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="Ground truth/Hungarian/boy/KF002F07_45.278126_TO_48051971_2.7Sec_Resamch1.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="AutoVocoder/Hungarian/Boy/KF002F07_45.278126_TO_48051971_2.7Sec_Resamch1_syn.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="ParallelWavGan/Boy/012boyPwavGan.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+<br />
+<br />	
+<h3>Girl Speaker: </h3>  
+<tr><td colspan="2"><span><b>Text:</b> "I THINK IT WOULD GET BRIGHTER TO BREAK THE BULB OR IT WOULDN'T WORK"</span></td></tr>
+<br />
+<br />
+
+<div>
+	  
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Ground_truth</th>
+	    <th>Proposed system</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="Ground_truth/Girl/030.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="AutoVocoder/Girl/030Auto.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="ParallelWavGan/Girl/030PwavGan.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text:</b> "I MEAN LIKE IT POWERS MOSTLY EVERYTHING"</span></td></tr>
+<br />
+<br />
+
+<div>
+	  
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Ground_truth</th>
+	    <th>Proposed system</th>
+		<th>ParallelWavGan</th>
+		<th>WorldVoc</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="Ground_truth/Girl/007.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="AutoVocoder/Girl/007Auto.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="ParallelWavGan/Girl/007PwavGan.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />	  
+
+<br />
+<br />
+
+
+
+<hr>
+
+<h2>Visualization</h2>
+The image below demonstrates The comparison of Mel spectrograms and F0 values between the ground truth and three models: (b) AutoVocoder, (c) ParallelWavGan, and (d) WORLD Vocoder for both Boy and Girl. 
+
+<p align="left"><img width="50%" src="Img/mel1.jpg" /></p>
+
+<hr>
+ 
+	 
+
+
+
+</table>
+
+	
+  </head>
+</html>
