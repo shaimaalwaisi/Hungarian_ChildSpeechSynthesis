@@ -11,5 +11,5 @@ An overview of proposed child speech synthesis architectures. (a) Generator BIGV
 
 # Samples 
 
-[you can find synthesized samples here](https://shaimaalwaisi.github.io/Child_SpeechSynthesis/) 
+[you can find synthesized samples here](https://shaimaalwaisi.github.io/Hungarian_ChildSpeechSynthesis/) 
 
